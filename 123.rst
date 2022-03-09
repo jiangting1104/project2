@@ -100,4 +100,3 @@ eg:
 1.6 XXXXXXXXXXX
 ------------------
 
-.. highlight:: c
