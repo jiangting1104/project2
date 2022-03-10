@@ -1,9 +1,9 @@
-RST文件编辑
+RST文件编辑（一级标题）
 =============
 
 学习如何编辑rst文件
 
-1.1 列表样式
+1.1 列表样式（二级标题）
 ------------
 
 **无序列表**
@@ -62,8 +62,7 @@ For details, see 列表样式_
 
 eg:
 
-请参见以下命令：
-:: 
+请参见以下命令:: 
 
  # cat /sys/module/nfp/srcversion
  
@@ -81,13 +80,17 @@ eg:
 1.5 表格
 ----------------
 
+表格列表
+^^^^^^^^^^^^^^
+
 -a            command-line option "a"
 -b file       options can have arguments and long descriptions
 --long        options can be long also
 --input=file  long options can also have arguments
 /V            DOS/VMS-style options too
 
-
+绘制表格
+^^^^^^^^^^^^
 
 +----------------+--------------+-------------------------------------+
 | Release Version| Date         | Descrption                          |
