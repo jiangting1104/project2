@@ -13,6 +13,11 @@ RST文件编辑（一级标题）
 eg:
  
  * 111111 
+ 
+   * 11111111111111111
+   * 122121221212122122112
+   * 1122121111111111111121212
+   
  * 222222
  * 333333
 
@@ -23,6 +28,9 @@ eg:
 eg:
 
  #. 111
+ 
+   a. 1111111111111
+   #. 1111111212212122
  #. 222
  #. 333
  
@@ -47,7 +55,9 @@ For details, see `Technical Support`_.
 
 .. _: https://www.corigine.com.cn/cn/index.html
 
-**链接内部链接**   两个点+一个空格+下划线+名称
+**链接内部链接**   
+
+格式：两个点+一个空格+下划线+名称
 
 eg:
 
@@ -71,7 +81,7 @@ eg:
 
 .. note::
 
-   ``The ethtool interface is only available for hosts running kernel 4.16 or higher when using the in-tree driver. Please use the out of tree driver to enable ethtool flashing      on older kernels.``
+   The ethtool interface is only available for hosts running kernel 4.16 or higher when using the in-tree driver. Please use the out of tree driver to enable ethtool flashing      on older kernels.
 
 .. warning::
 
@@ -99,6 +109,8 @@ eg:
 +----------------+--------------+-------------------------------------+
 | V1.0           | 2022-03-01   | The first release.                  |
 +----------------+--------------+-------------------------------------+   
+
+“-” 表示分隔行， “=”表示分隔表头和表体行，“|”表示分隔列，“+”表示行和列相交的节点。
 
 1.6 XXXXXXXXXXX
 ------------------
