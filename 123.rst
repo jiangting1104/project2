@@ -120,3 +120,6 @@ eg:
 1.6 XXXXXXXXXXX
 ------------------
 
+In order to persist the VFs on the system, it is suggested that the system
+networking scripts be updated to manage them. The following snippet illustrates
+how to do this with *NetworkManager* for the PF ``enp2s0np0``:
